@@ -1,0 +1,55 @@
+/* font-size */
+.fs-h3 {
+  font-size: var(--fs-h3);
+}
+
+.fs-h2 {
+  font-size: var(--fs-h2);
+}
+
+.fs-h4 {
+  font-size: var(--fs-h4);
+}
+
+.fs-h1 {
+  font-size: var(--fs-h1);
+}
+
+.fs-p-s {
+  font-size: var(--fs-p-s);
+}
+/* font-size */
+
+/* font-color */
+.fc-white {
+  color: var(--fc-white);
+}
+/* font-color */
+
+/* font-weight */
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+/* font-weight */
+
+/* margin */
+.m-top-2 {
+  margin-top: 2rem;
+}
+
+.m-top-1-5 {
+  margin-top: 1.5rem;
+}
+
+.m-1-5 {
+    margin: 1.5rem 0;
+  }
+
+.m-tb-2 {
+    margin: 1.3rem 0;
+}
+/* margin */

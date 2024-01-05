@@ -1,0 +1,12 @@
+:root {
+    --primary-color: rgb(8, 14, 44);
+    --accent-color: rgb(255, 251, 4);
+
+    --fc-white: rgb(230, 230, 230);
+
+    --fs-h3: 2.5rem;
+    --fs-h2: 4rem;
+    --fs-h4: 1.3rem;
+    --fs-h1: 5rem;
+    --fs-p-s: .9rem;
+}

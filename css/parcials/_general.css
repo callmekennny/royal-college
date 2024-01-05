@@ -1,0 +1,48 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-color);
+    line-height: 1.7;
+    overflow-x:hidden;
+}
+
+/* general link */
+.link-g {
+    display: inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+}
+
+.link-g::after {
+    content: '';
+    background-color: var(--accent-color);
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    z-index: 2;
+}
+/* general link */
+
+
+/* title with yellow bars */
+.up-title {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.y-bar {
+    background-color: var(--accent-color);
+    width: 60px;
+    height: 15px;
+}
+/* title with yellow bars */
